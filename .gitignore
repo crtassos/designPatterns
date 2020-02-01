@@ -1,2 +1,5 @@
 *.log
 **/logs
+**Debug
+**x64
+*.vs
