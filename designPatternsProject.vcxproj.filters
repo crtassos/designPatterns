@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\DrinkFactory.hpp">
+    <ClInclude Include="DrinkFactory.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\HotDrink.hpp">
+    <ClInclude Include="HotDrink.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\HotDrinkFactory.hpp">
+    <ClInclude Include="HotDrinkFactory.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\includes.h">
+    <ClInclude Include="includes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\abstarctFactory.cpp">
+    <ClCompile Include="abstarctFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

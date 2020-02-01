@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrinkFactory.hpp" />
+    <ClInclude Include="HotDrink.hpp" />
+    <ClInclude Include="HotDrinkFactory.hpp" />
+    <ClInclude Include="includes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abstarctFactory.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{78C0D038-F4F1-4517-9A4C-013BE5DCA53F}</ProjectGuid>
@@ -122,15 +131,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\DrinkFactory.hpp" />
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\HotDrink.hpp" />
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\HotDrinkFactory.hpp" />
-    <ClInclude Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\includes.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\designPatterns\Solid Design Patterns\OpenClosed Principle\abstarctFactory.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
