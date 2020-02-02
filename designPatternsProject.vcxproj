@@ -23,15 +23,19 @@
     <ClInclude Include="HotDrink.hpp" />
     <ClInclude Include="HotDrinkFactory.hpp" />
     <ClInclude Include="includes.h" />
+    <ClInclude Include="PersonFactory.h" />
+    <ClInclude Include="Persons.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="abstarctFactory.cpp" />
+    <ClCompile Include="codingExercise.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{78C0D038-F4F1-4517-9A4C-013BE5DCA53F}</ProjectGuid>
     <RootNamespace>designPatternsProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>abstractFactory</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
